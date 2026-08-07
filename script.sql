@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS producto (
+    id SERIAL PRIMARY KEY,
+    nombre VARCHAR(50) NOT NULL,
+    precio DOUBLE PRECISION NOT NULL,
+    stock INTEGER NOT NULL
+);
